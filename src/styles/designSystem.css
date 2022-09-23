@@ -14,4 +14,12 @@
   --ls: 5px;
 
   --body: 14px;
+
+  --font-1: 'Crimson Text', serif;
+  --font-2: 'Work Sans', sans-serif;
+
+  --color-dark-100: #212529;
+  --color-dark-75: #212529BF;
+  --color-dark-50: #21252980;
+  --clor-dark-25: #21252940;
 }
