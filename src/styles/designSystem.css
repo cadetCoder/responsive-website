@@ -71,3 +71,13 @@
 .text-green {
   color: var(--color-green-100);
 }
+
+/* 
+*! style rules for label
+*/
+
+.label {
+  font-family: var(--font-2);
+  font-size: var(--label);
+  letter-spacing: var(--ls);
+}
