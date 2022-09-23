@@ -33,5 +33,14 @@
   --color-green-50: rgba(116, 198, 157, 0.5);
   --color-green-25: rgba(116, 198, 157, 0.25);
 
-  --color-white: #FFFFFF40;
+}
+
+/** ! style rules for common button styles **/
+
+.white-btn {
+  cursor: pointer;
+}
+
+.dark-btn {
+  cursor: pointer;
 }
