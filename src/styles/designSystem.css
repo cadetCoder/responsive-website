@@ -35,9 +35,12 @@
 
 }
 
-/** ! style rules for common button styles **/
+/* 
+*! style rules for common button styles 
+*/
 
-.white-btn {
+.white-btn,
+.dark-btn {
   color: var(--color-dark-100);
   background-color: var(--color-white-100);
   cursor: pointer;
@@ -45,14 +48,26 @@
   font-family: var(--font-2);
   border: none;
   border-radius: 8px;
+  padding: 10px 40px;
 }
 
 .dark-btn {
   color: var(--color-white-100);
   background-color: var(--color-dark-100);
-  cursor: pointer;
-  font-size: var(--h5);
-  font-family: var(--font-2);
-  border: none;
-  border-radius: 8px;
+}
+
+/* 
+*! style rules for text colour styles
+*/
+
+.text-white {
+  color: var(--color-white-100);
+}
+
+.text-dark {
+  color: var(--color-dark-100);
+}
+
+.text-green {
+  color: var(--color-green-100);
 }
