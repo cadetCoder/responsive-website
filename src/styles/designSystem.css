@@ -80,4 +80,5 @@
   font-family: var(--font-2);
   font-size: var(--label);
   letter-spacing: var(--ls);
+  text-transform: uppercase;
 }
