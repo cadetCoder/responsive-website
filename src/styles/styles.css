@@ -1,0 +1,6 @@
+:root {
+  --color-name: orange;
+}
+.item-1{
+  color: var(--color-name);
+}
