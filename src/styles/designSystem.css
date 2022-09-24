@@ -93,3 +93,16 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* 
+*! style rules for hero
+*/
+
+.hero {
+  background-color: var(--color-green-100);
+}
+
+/* 
+*! style rules for navbar
+*/
+
