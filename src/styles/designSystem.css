@@ -127,3 +127,16 @@
   font-weight: 500;
   color: var(--color-white-100);
 }
+
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-family: var(--font-2);
+  font-size: var(--h5);
+}
+
+[class^="navbar__menu--"] {
+  color: var(--color-white-100);
+  text-decoration: none;
+}
