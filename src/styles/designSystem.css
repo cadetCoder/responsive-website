@@ -119,3 +119,10 @@
   align-items: center;
   gap: 20px;
 }
+
+.navbar__logo--text {
+  font-size: var(--h2);
+  font-family: var(--font-2);
+  font-weight: 500;
+  color: var(--color-white-100);
+}
