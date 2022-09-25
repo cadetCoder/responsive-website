@@ -164,6 +164,10 @@
 @media (max-width: 768px) { 
   .container { max-width: 500px;
   }
+  
+  .navbar__menu {
+    display: none;
+  }
 }
 
 @media (max-width: 568px) { 
