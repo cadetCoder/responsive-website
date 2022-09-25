@@ -149,3 +149,24 @@
   max-width: 1140px;
   margin: auto;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 1042px) { 
+  .container { max-width: 740px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .container { max-width: 500px;
+  }
+}
+
+@media (max-width: 568px) { 
+  .container { max-width: 90%;
+  }
+}
