@@ -143,6 +143,16 @@
   text-decoration: none;
 }
 
+.navbar__icons {
+  display: none;
+}
+
+.navbar__icons i {
+  cursor: pointer;
+  font-size: var(--h2);
+  color: var(--color-white-100);
+}
+
 /* 
 *! style rules for common classes
 */
@@ -166,8 +176,16 @@
 @media (max-width: 768px) { 
   .container { max-width: 500px;
   }
-  
+   
   .navbar__menu {
+    display: none;
+  }
+
+  .navbar__icons {
+    display: block;
+  }
+
+  .hide {
     display: none;
   }
 }
@@ -176,3 +194,4 @@
   .container { max-width: 90%;
   }
 }
+
