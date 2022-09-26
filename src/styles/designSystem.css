@@ -189,7 +189,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
   }
+
+
 
   .navbar__icons {
     display: block;
