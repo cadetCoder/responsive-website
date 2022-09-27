@@ -192,16 +192,20 @@
     gap: 40px;
   }
 
-.menubar__menu--home {
-  margin-top: -200px;
-}
-
-  .navbar__icons {
-    display: block;
+  .navbar__menu--home {
+    margin-top: -200px;
   }
 
+  .navbar__icons {
+      display: block;
+    }
+
   .hide {
-    display: none;
+      display: none;
+    }
+
+  .hidden {
+    opacity: 0%;
   }
 }
 
