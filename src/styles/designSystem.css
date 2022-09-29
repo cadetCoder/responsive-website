@@ -175,6 +175,13 @@
   gap: 25px;
 }
 
+.common-title {
+  text-transform: uppercase;
+  font-size: var(--h1);
+  font-family: var(--font-1);
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 970px;
