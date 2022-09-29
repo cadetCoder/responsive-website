@@ -160,6 +160,7 @@
 .container {
   max-width: 1140px;
   margin: auto;
+  align-items: center;
 }
 
 .responsive-image { 
@@ -170,6 +171,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0;
 }
 
 @media (max-width: 1200px) {
