@@ -1,6 +1,9 @@
-:root {
-  --color-name: orange;
-}
-.item-1{
-  color: var(--color-name);
+/*
+! Style rules for sectionOne
+*/
+
+.sectionOne__left--text {
+  font-family: var(--font-2);
+  font-size: var(--body);
+  color: var(--color-white-75);
 }
