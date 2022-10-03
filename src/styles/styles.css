@@ -12,3 +12,8 @@
   align-self: start;
   margin-top: 20px;
 }
+
+.sectionTwo__content--text {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
