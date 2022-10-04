@@ -21,3 +21,8 @@
   font-family: var(--font-2);
   font-size: var(--sub);
 }
+
+.sectionTwo__logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
