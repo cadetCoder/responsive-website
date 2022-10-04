@@ -26,3 +26,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.sectionTwo__logo img {
+  justify-self: center;
+  align-self: center;
+}
