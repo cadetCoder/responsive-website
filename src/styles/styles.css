@@ -17,6 +17,12 @@
 ! Style rules for sectionTwo
 */
 
+.sectionTwo {
+  padding: 40px 0;
+  display: grid;
+  gap: 30px;
+}
+
 .sectionTwo__content--text {
   font-family: var(--font-2);
   font-size: var(--sub);
