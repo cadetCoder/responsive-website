@@ -41,3 +41,11 @@
 .sectionTwo__btn {
   justify-self: center;
 }
+
+/*
+! Style rules for sectionThree
+*/
+
+.sectionThree--text {
+  color: var(--color-dark-50);
+}
