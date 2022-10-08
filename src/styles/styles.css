@@ -59,3 +59,9 @@
 /*
 ! Style rules for sectionFour
 */
+
+.sectionFour__left--text {
+  color: var(--color-dark-50);
+  font-family: var(--font-2);
+  font-size: var(--body);
+}
