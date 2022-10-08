@@ -65,3 +65,7 @@
   font-family: var(--font-2);
   font-size: var(--body);
 }
+
+.sectionFour__left--btn {
+  align-self: start;
+}
