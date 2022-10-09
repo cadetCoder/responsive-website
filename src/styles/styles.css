@@ -78,3 +78,8 @@
   font-size: var(--sub);
   font-family: var(--font-2);
 }
+
+.sectionFive__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
