@@ -69,3 +69,12 @@
 .sectionFour__left--btn {
   align-self: start;
 }
+
+/*
+! Style rules for sectionFive
+*/
+
+.sectionFive__content--text {
+  font-size: var(--sub);
+  font-family: var(--font-2);
+}
