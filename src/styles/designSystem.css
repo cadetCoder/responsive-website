@@ -35,6 +35,8 @@
   --color-green-50: rgba(116, 198, 157, 0.5);
   --color-green-25: rgba(116, 198, 157, 0.25);
 
+  --shadow-1: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+
 }
 
 /* 
