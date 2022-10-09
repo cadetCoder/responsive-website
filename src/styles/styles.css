@@ -83,3 +83,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+[class^="sectionFive__cards--"] {
+  box-shadow: var(--shadow-1);
+}
