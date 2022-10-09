@@ -86,4 +86,5 @@
 
 [class^="sectionFive__cards--"] {
   box-shadow: var(--shadow-1);
-}
+} 
+/* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
