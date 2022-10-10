@@ -74,6 +74,12 @@
 ! Style rules for sectionFive
 */
 
+.sectionFive {
+  display: grid;
+  gap: 30px;
+  margin-top: 30;
+}
+
 .sectionFive__content--text {
   font-size: var(--sub);
   font-family: var(--font-2);
