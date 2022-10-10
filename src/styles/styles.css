@@ -86,6 +86,10 @@
 }
 
 [class^="sectionFive__cards--"] {
+  display: flex;
+  flex-direction: column;
   box-shadow: var(--shadow-1);
+  border-radius: 5%;
+  padding: 20px 25px;
 } 
 /* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
