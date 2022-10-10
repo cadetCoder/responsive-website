@@ -206,6 +206,9 @@
 }
 
 @media (max-width: 768px) { 
+  .grid { 
+    grid-template-columns: repeat(1, 1fr);
+  }
   .container { max-width: 500px;
   }
    
@@ -246,4 +249,5 @@
   .container { max-width: 90%;
   }
 }
+
 
