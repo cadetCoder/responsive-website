@@ -99,3 +99,9 @@
   padding: 20px 25px;
 } 
 /* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
+
+[class^="sectionFive__cards--"] .name {
+  font-family: var(--font-1);
+  font-size: vat(--h5);
+  font-weight: bold;
+}
