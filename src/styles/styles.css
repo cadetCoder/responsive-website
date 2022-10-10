@@ -105,3 +105,8 @@
   font-size: vat(--h5);
   font-weight: bold;
 }
+
+[class^="sectionFive__cards--"] .position {
+  font-family: var(--font-2);
+  color: var(--color-dark-75);
+}
