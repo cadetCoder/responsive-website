@@ -115,3 +115,12 @@
 .sectionFive__btn {
   justify-self: center;
 }
+
+@media (max-width: 768px) {
+  .sectionOne__right {
+    order: 0;
+  }
+  .sectionOne__left {
+    order: 1;
+  } 
+}

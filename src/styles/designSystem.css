@@ -203,6 +203,9 @@
 @media (max-width: 1042px) { 
   .container { max-width: 740px;
   }
+  .common-title {
+    font-size: var(--h4);
+  }
 }
 
 @media (max-width: 768px) { 
