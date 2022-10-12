@@ -117,16 +117,10 @@
 }
 
 @media (max-width: 768px) {
-  .sectionOne__right {
+  .sectionOne__right, .sectionFour {
     order: 0;
   }
-  .sectionOne__left {
-    order: 1;
-  } 
-  .sectionFour {
-    order: 0;
-  }
-  .sectionFour__left {
+  .sectionOne__left, .sectionFour__left {
     order: 1;
   }
 }
