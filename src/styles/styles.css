@@ -126,4 +126,7 @@
   .sectionFour {
     order: 0;
   }
+  .sectionFour__left {
+    order: 1;
+  }
 }
