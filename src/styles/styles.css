@@ -123,4 +123,7 @@
   .sectionOne__left {
     order: 1;
   } 
+  .sectionFour {
+    order: 0;
+  }
 }
