@@ -134,6 +134,9 @@
   .sectionOne__left, .sectionFour__left {
     order: 1;
   }
+  .sectionFive__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 568px) {
