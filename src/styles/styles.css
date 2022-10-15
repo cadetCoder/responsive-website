@@ -78,7 +78,8 @@
 .sectionFive {
   display: grid;
   gap: 30px;
-  margin-top: 30;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .sectionFive__content--text {
@@ -97,7 +98,7 @@
   flex-direction: column;
   gap: 15px;
   box-shadow: var(--shadow-1);
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 20px 25px;
 } 
 /* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
@@ -106,6 +107,7 @@
   font-family: var(--font-1);
   font-size: vat(--h5);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 [class^="sectionFive__cards--"] .position {
