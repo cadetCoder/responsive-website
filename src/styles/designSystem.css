@@ -194,6 +194,35 @@
   font-weight: bold;
 }
 
+/* 
+*! style rules for footer section
+*/
+
+.footerWrapper {
+  background-color: var(--color-green-100);
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footerLinks__socials {
+  display: flex;
+  gap: 10px;
+}
+
+.footerLinks__copyright {
+  font-size: var(--sub);
+  font-family: var(--font-2);
+}
+
+/* 
+*! style rules for media queries
+*/
+
 @media (max-width: 1200px) {
   .container {
     max-width: 970px;
