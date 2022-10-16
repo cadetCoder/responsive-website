@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 :root {
@@ -17,9 +16,6 @@
 
   --body: 14px;
 
-  --font-1: 'Crimson Text', serif;
-  --font-2: 'Work Sans', sans-serif;
-
   --color-dark-100: rgba(33, 37, 41, 1);
   --color-dark-75: rgba(33, 37, 41, 0.75);
   --color-dark-50: rgba(33, 37, 41, 0.5);
@@ -35,13 +31,15 @@
   --color-green-50: rgba(116, 198, 157, 0.5);
   --color-green-25: rgba(116, 198, 157, 0.25);
 
-  --shadow-1: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  --font-1: "Crimson Text", serif;
+  --font-2: "Work Sans", sans-serif;
 
+  --shadow-1: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
 }
 
-/* 
-*! removing default styles of the browser
-*/
+/**
+* ! removing default styles of the browser 
+**/
 
 * {
   margin: 0;
@@ -49,30 +47,21 @@
   box-sizing: border-box;
 }
 
-/* 
-*! style rules for common button styles 
-*/
+/**
+* ! Style rules for Label text
+**/
 
-.white-btn,
-.dark-btn {
-  color: var(--color-dark-100);
-  background-color: var(--color-white-100);
-  cursor: pointer;
-  font-size: var(--h5);
+.label {
   font-family: var(--font-2);
-  border: none;
-  border-radius: 8px;
-  padding: 10px 40px;
+  font-size: var(--label);
+  letter-spacing: var(--ls);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.dark-btn {
-  color: var(--color-white-100);
-  background-color: var(--color-dark-100);
-}
-
-/* 
-*! style rules for text colour styles
-*/
+/**
+* ! Style rules for text colors
+**/
 
 .text-white {
   color: var(--color-white-100);
@@ -86,98 +75,54 @@
   color: var(--color-green-100);
 }
 
-/* 
-*! style rules for label
-*/
+/**
+* ! Style rules for buttons
+**/
 
-.label {
-  font-family: var(--font-2);
-  font-size: var(--label);
-  letter-spacing: var(--ls);
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-/* 
-*! style rules for hero
-*/
-
-.hero {
-  background-color: var(--color-green-100);
-}
-
-/* 
-*! style rules for navbar
-*/
-
-.navbar { 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 0;
-}
-
-.navbar__logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-}
-
-.navbar__logo--text {
-  font-size: var(--h2);
-  font-family: var(--font-2);
-  font-weight: 500;
-  color: var(--color-white-100);
-}
-
-.navbar__menu {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
+.white-btn,
+.dark-btn {
+  color: var(--color-dark-100);
+  background-color: var(--color-white-100);
   font-family: var(--font-2);
   font-size: var(--h5);
-}
-
-[class^="navbar__menu--"] {
-  color: var(--color-white-100);
-  text-decoration: none;
-}
-
-.navbar__icons {
-  display: none;
-}
-
-.navbar__icons i {
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
   cursor: pointer;
-  font-size: var(--h2);
+}
+
+.dark-btn {
   color: var(--color-white-100);
+  background-color: var(--color-dark-100);
 }
 
-/* 
-*! style rules for common classes
-*/
+/**
+* ! Style rules for responsive images
+**/
 
-.text-center {
-  text-align: center;
+.responsive-image {
+  max-width: 100%;
+  height: auto;
 }
+
+/**
+* ! Common style rules
+**/
 
 .container {
   max-width: 1140px;
   margin: auto;
 }
 
-.responsive-image { 
-  max-width: 100%;
-  height: auto;
+.text-center {
+  text-align: center;
 }
 
 .grid {
+  padding: 40px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 40px 0;
   gap: 25px;
 }
 
@@ -188,25 +133,83 @@
 }
 
 .common-title {
-  text-transform: uppercase;
-  font-size: var(--h1);
+  text-transform: capitalize;
   font-family: var(--font-1);
+  font-size: var(--h1);
   font-weight: bold;
 }
 
-/* 
-*! style rules for footer section
+/**
+* ! Style rules for Hero section 
 */
+
+.hero {
+  background-color: var(--color-green-100);
+}
+
+/**
+* ! Style rules for Navbar 
+*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__logo--text {
+  font-size: var(--h2);
+  font-family: var(--font-2);
+  color: var(--color-white-100);
+  font-weight: 500;
+}
+
+.navbar__menu {
+  display: flex;
+  font-family: var(--font-2);
+  font-size: var(--h5);
+  gap: 15px;
+}
+
+[class^="navbar__menu-"] {
+  text-decoration: none;
+  color: var(--color-white-100);
+}
+
+.navbar__icons {
+  display: none;
+}
+
+.navbar__icons i {
+  font-size: var(--h2);
+  color: var(--color-white-100);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+/**
+* ! style rules for footer
+**/
 
 .footerWrapper {
   background-color: var(--color-green-100);
 }
 
 .footerLinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footerLinks__socials {
@@ -219,73 +222,76 @@
   font-family: var(--font-2);
 }
 
-/* 
-*! style rules for media queries
-*/
+/**
+* ! Media query rules are here
+**/
 
 @media (max-width: 1200px) {
   .container {
     max-width: 970px;
   }
-}
 
-@media (max-width: 1042px) { 
-  .container { max-width: 740px;
+  .common-title {
+    font-size: var(--h2);
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 740px;
   }
   .common-title {
     font-size: var(--h4);
   }
 }
-
-@media (max-width: 768px) { 
-  .grid { 
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  .grid {
     grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
   }
-  .container { max-width: 500px;
+  .white-btn,
+  .dark-btn {
+    font-size: var(--h6);
+    padding: 8px 25px;
   }
-   
+
   .navbar__menu {
     z-index: 1;
     background-color: var(--color-green-100);
     position: absolute;
-    top: 15vh;
-    width: 100%;
+    opacity: 100%;
+    top: 100px;
     right: 0;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 40px;
   }
 
-  .navbar__menu--home {
+  .navbar__menu--1 {
     margin-top: -200px;
   }
-
   .navbar__icons {
-      display: block;
-    }
-
-  .hide {
-      display: none;
-    }
-
-  .hidden {
-    opacity: 0%;
-    z-index: -1;
+    display: block;
   }
 
+  .hidden {
+    z-index: -1;
+    opacity: 0%;
+  }
   .footerLinks {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
 }
-
-@media (max-width: 568px) { 
-  .container { max-width: 90%;
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
   }
 }
-
-

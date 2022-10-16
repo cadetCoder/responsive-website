@@ -1,10 +1,10 @@
-/*
-! Style rules for sectionOne
-*/
+/**
+* ! style rules for sectionOne
+**/
 
 .sectionOne__left--text {
-  font-family: var(--font-2);
   font-size: var(--body);
+  font-family: var(--font-2);
   color: var(--color-white-75);
 }
 
@@ -13,19 +13,14 @@
   margin-top: 20px;
 }
 
-/*
-! Style rules for sectionTwo
-*/
+/**
+* ! style rules for sectionTwo
+**/
 
 .sectionTwo {
   padding: 40px 0;
   display: grid;
   gap: 30px;
-}
-
-.sectionTwo__content--text {
-  font-family: var(--font-2);
-  font-size: var(--sub);
 }
 
 .sectionTwo__logo {
@@ -34,31 +29,38 @@
 }
 
 .sectionTwo__logo img {
+  /* border: 2px solid red; */
   justify-self: center;
   align-self: center;
+}
+
+.sectionTwo__content--text {
+  font-size: var(--sub);
+  font-family: var(--font-2);
 }
 
 .sectionTwo__btn {
   justify-self: center;
 }
 
-/*
-! Style rules for sectionThree
-*/
+/**
+* ! style rules for sectionThree
+**/
 
-.sectionThree--text {
+.sectionThree__right--btn {
+  align-self: start;
+  margin-top: 20px;
+}
+
+.sectionThree__right--text {
   color: var(--color-dark-50);
   font-family: var(--font-2);
   font-size: var(--body);
 }
 
-.sectionThree--btn {
-  align-self: start;
-}
-
-/*
-! Style rules for sectionFour
-*/
+/**
+* ! style rules for sectionFour
+**/
 
 .sectionFour__left--text {
   color: var(--color-dark-50);
@@ -71,9 +73,9 @@
   margin-top: 20px;
 }
 
-/*
-! Style rules for sectionFive
-*/
+/**
+* ! style rules for sectionFive
+**/
 
 .sectionFive {
   display: grid;
@@ -82,46 +84,48 @@
   margin-bottom: 30px;
 }
 
-.sectionFive__content--text {
-  font-size: var(--sub);
-  font-family: var(--font-2);
-}
-
 .sectionFive__cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
+/* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
+
 [class^="sectionFive__cards--"] {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   gap: 15px;
   box-shadow: var(--shadow-1);
   border-radius: 5px;
   padding: 20px 25px;
-} 
-/* for selector reference [attribute^=value] please read https://www.w3schools.com/cssref/css_selectors.asp */
+}
 
 [class^="sectionFive__cards--"] .name {
   font-family: var(--font-1);
-  font-size: vat(--h5);
+  font-size: var(--h5);
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 [class^="sectionFive__cards--"] .position {
   font-family: var(--font-2);
   color: var(--color-dark-75);
+  text-transform: uppercase;
+}
+
+.sectionFive__content--text {
+  font-size: var(--sub);
+  font-family: var(--font-2);
 }
 
 .sectionFive__btn {
   justify-self: center;
 }
 
-/*
-! media queries are here
-*/
+/**
+* ! Adding media queries  
+**/
 
 @media (max-width: 1200px) {
   .sectionTwo__logo {
@@ -130,22 +134,26 @@
   }
 }
 
+@media (max-width: 1024px) {
+}
+
 @media (max-width: 768px) {
-  .sectionOne__right, .sectionFour {
-    order: 0;
-  }
-  .sectionOne__left, .sectionFour__left {
+  .sectionOne__left,
+  .sectionFour__left {
     order: 1;
   }
+  .sectionOne__right,
+  .sectionFour__right {
+    order: 0;
+  }
+
   .sectionFive__cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .sectionTwo__logo {
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
   }
   .sectionFive__cards {
     grid-template-columns: repeat(1, 1fr);
