@@ -8,3 +8,9 @@
   font-size: var(--sub);
   font-family: var(--font-2);
 }
+
+@media (max-width: 568px) {
+  .sectionOne__images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
