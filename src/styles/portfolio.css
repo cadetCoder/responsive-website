@@ -16,6 +16,10 @@
   font-family: var(--font-2);
 }
 
+.sectionOne__btn {
+  justify-self: center;
+}
+
 @media (max-width: 568px) {
   .sectionOne__images {
     grid-template-columns: repeat(1, 1fr);
