@@ -2,3 +2,7 @@ body {
   display: grid;
   min-height: 100vh;
 }
+
+.hero {
+  align-self: start;
+}
