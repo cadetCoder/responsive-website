@@ -10,3 +10,8 @@ body {
 .footWrapper { 
   align-self: end;
 }
+
+.sectionOne__content--text {
+  font-size: var(--sub);
+  font-family: var(--font-2);
+}
