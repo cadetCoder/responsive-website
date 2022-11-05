@@ -24,3 +24,9 @@ body {
   text-align: center;
   gap: 50px;
 }
+
+[class^="sectionOne__cards--"] {
+  box-shadow: var(--shadow-1);
+  display: grid;
+  gap: 15px;
+}
