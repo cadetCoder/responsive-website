@@ -17,6 +17,10 @@ body {
 }
 
 .sectionOne__cards {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  font-family: var(--font-2);
+  text-align: center;
+  gap: 50px;
 }
