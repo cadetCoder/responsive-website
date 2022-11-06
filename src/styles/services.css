@@ -30,4 +30,5 @@ body {
   display: grid;
   gap: 15px;
   padding: 4px;
+  border-radius: 6px;
 }
