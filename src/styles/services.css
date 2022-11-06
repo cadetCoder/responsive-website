@@ -29,4 +29,5 @@ body {
   box-shadow: var(--shadow-1);
   display: grid;
   gap: 15px;
+  padding: 4px;
 }
