@@ -36,5 +36,15 @@ body {
 .price {
   display: flex;
   justify-self: center;
+  align-items: center;
   gap: 10px;
+}
+
+.amount {
+  font-size: var(--h1);
+  font-weight: bold;
+}
+
+.time {
+  
 }
