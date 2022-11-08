@@ -36,4 +36,5 @@ body {
 .price {
   display: flex;
   justify-self: center;
+  gap: 10px;
 }
