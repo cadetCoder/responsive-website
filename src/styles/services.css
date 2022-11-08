@@ -33,3 +33,7 @@ body {
   border-radius: 6px;
 }
 
+.price {
+  display: flex;
+  justify-self: center;
+}
