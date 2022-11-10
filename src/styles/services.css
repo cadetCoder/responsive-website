@@ -49,3 +49,6 @@ body {
   font-size: var(--body);
   color: var(--color-dark-75);
 }
+.info {
+  color: var(--color-dark-75);
+}
