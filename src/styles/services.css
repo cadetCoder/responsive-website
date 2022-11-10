@@ -52,3 +52,8 @@ body {
 .info {
   color: var(--color-dark-75);
 }
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
