@@ -58,3 +58,7 @@ body {
   gap: 12px;
   margin: 20px 0;
 }
+
+.dark-btn {
+  justify-self: center;
+}
