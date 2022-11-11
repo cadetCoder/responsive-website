@@ -11,6 +11,11 @@ body {
   align-self: end;
 }
 
+.sectionOne {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 .sectionOne__content--text {
   font-size: var(--sub);
   font-family: var(--font-2);
