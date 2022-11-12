@@ -2,3 +2,11 @@ body {
   min-height: 100vh;
   display: grid;
 }
+
+.hero {
+  align-self: start;
+}
+
+.footerWrapper {
+  align-self: end;
+}
