@@ -67,3 +67,7 @@ body {
 .dark-btn {
   justify-self: center;
 }
+
+.bi-check-lg {
+  color: var(--color-green-100);
+}
