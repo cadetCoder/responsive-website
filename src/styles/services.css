@@ -71,3 +71,16 @@ body {
 .bi-check-lg {
   color: var(--color-green-100);
 }
+
+@media (max-width: 1024px) {
+  .sectionOne__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .sectionOne__cards {
+    grid-template-columns: repeat(1, 0.7fr);
+    justify-content: center;
+  }
+}
+@media (max-width: 568px) {}
