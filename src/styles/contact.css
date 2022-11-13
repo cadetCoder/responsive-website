@@ -47,4 +47,10 @@ textarea {
   .grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .sectionTwo__left {
+    order: 1;
+  }
+  .sectionTwo__right {
+    order: 0;
+  }
 }
