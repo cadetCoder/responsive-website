@@ -10,3 +10,8 @@ body {
 .footerWrapper {
   align-self: end;
 }
+
+.text {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
