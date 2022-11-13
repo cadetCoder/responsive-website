@@ -16,6 +16,10 @@ body {
   font-size: var(--sub);
 }
 
+.sectionOne {
+  margin-top: 15px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -33,4 +37,8 @@ textarea {
   border: 1.5px solid #212529;
   border-radius: 3px;
   background-color: #eeeeee;
+}
+
+.btn-dark {
+ margin-top: 10px; 
 }
