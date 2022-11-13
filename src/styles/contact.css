@@ -15,3 +15,8 @@ body {
   font-family: var(--font-2);
   font-size: var(--sub);
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
