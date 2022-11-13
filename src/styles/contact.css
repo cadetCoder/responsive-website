@@ -42,3 +42,9 @@ textarea {
 .btn-dark {
  margin-top: 10px; 
 }
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
