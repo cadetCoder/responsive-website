@@ -25,3 +25,12 @@ label {
   font-family: var(--font-2);
   font-size: var(--sub);
 }
+
+input,
+textarea {
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: 1.5px solid #212529;
+  border-radius: 3px;
+  background-color: #eeeeee;
+}
